@@ -1,0 +1,572 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mail-icon
+{
+    font-size: 25px;
+    color: white;
+    vertical-align: middle; /* Align icons vertically */
+    margin-right: 10px;
+}
+.phone-icon
+{
+    font-size: 20px;
+    color: white;
+    vertical-align: middle; /* Align icons vertically */
+    margin-right: 10px;
+}
+.social-icon
+{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(74, 74, 242);
+}
+
+.n1
+{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.n2
+{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 40px;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+.navbar1
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding:5px 50px;
+    align-items: center;
+    width: 100%;
+    
+    background-color: rgb(74, 74, 242);
+}
+
+.contact_nav li , .social_nav li 
+{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    
+    
+}
+
+.contact_nav li a
+{
+    font-size: small;
+
+
+}
+.contact_nav li a , .social_nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.social_nav li a
+{
+    padding: 0 5px;
+
+}
+.social_nav li a:first-child
+{
+    padding-left: 20px;
+}
+.social_nav{
+    margin-right: 150px;
+}
+
+.contact_nav 
+{
+    margin-left: 150px;
+}
+
+.second__navbar
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    margin-top: 20px;
+    background-color: white;
+    align-items: center;
+
+}
+
+.wp_logo {
+    width: 12em;
+    height: 4em;
+    margin-left: 35px;
+    cursor: pointer;
+     }
+
+.wp_logo:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0.9)
+}
+
+
+
+.menu__list
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right:80px;
+    
+
+}
+.menu__list li a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+}
+.menu__list li a:hover
+{
+    text-shadow: 0 0 10px;
+    color: rgb(74, 74, 242);
+
+}
+.vendors
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.vendors li img 
+{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+}
+
+.vendors li
+{
+    padding: 10px 30px;
+    border: 0.2px solid grey;
+}
+
+.logo__middle
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+   
+}
+
+.logo__middle img {
+    width: 10em;
+    height:3em;
+    filter: brightness(110%);
+}
+h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 4em;
+  text-align: center;
+  
+}
+h5{
+    text-align: center;
+    
+    margin-top: 10px;
+    letter-spacing: 5px; 
+
+}
+.building__images
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.big__image
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.big__image img{
+    
+    width: 800px;
+    height: 350px;
+    
+}
+
+.big__image img:hover
+{
+
+}
+.small__Images
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.small__Images img{
+    width: 272px;
+    height: 150px;
+    padding: 0 10px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    object-fit: cover;
+    border: none; 
+            outline: none;
+    
+}
+.small__Images img:hover
+{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0.9);
+  box-shadow: 2px 2px 30px rgba(62, 84, 88, 0.6);
+    
+}
+.small__Images a {
+    
+    text-decoration-line: none;
+
+}
+
+
+.small__Images a h4
+{ font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+
+.small__Images a p{
+    font-size: 10px;
+}
+
+.small__Images a h4,
+.small__Images a p {
+  margin-left: 10px
+}
+hr{
+    width: 800px;
+    
+    border-top: 0.25px solid #000;
+    margin: 40px auto;
+}
+
+.pin
+{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 15px auto;
+    color: rgb(20, 20, 255);
+}
+.viewmore p{
+    text-align: center;
+    color: rgb(20, 20, 255);
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+.viewmore p:hover{
+    cursor: pointer;
+
+}
+.rv__image
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.client__Reiview
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.client__Reiview h4, .client__Reiview h2
+{
+    font-family: "Playfair Display", serif;
+    padding-top: 150px;
+    padding-left: 10px;
+   
+    
+}
+
+.client__Reiview h4
+{
+    font-size: 30px;
+}
+.client__Reiview h2
+{
+    font-size: 35px;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: rgb(169, 30, 169);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.card img
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px auto;
+   
+}
+
+.card-bottom p {
+
+font-size: 15px;
+text-align: center;
+color: white;
+}
+.card-top h5{
+    letter-spacing: -0.5px;
+    color: rgb(226, 255, 3);
+
+}
+
+
+    
+    
+    .slick-list {
+    margin: 0 -10px;
+    }
+
+    
+    
+    .slick-prev {
+        left: 10px;
+    }
+    
+    .slick-next {
+        right: 10px;
+    }
+
+    .blog{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .blog h4,.blog h2
+    {
+        font-family: "Playfair Display", serif;
+        padding-top: 100px;
+        padding-left: 10px;
+       
+        
+    }
+
+.blog h4{
+    font-size:35px ;
+}
+.blog h2{
+    font-size:40px ;
+    font-weight: 400px;
+    
+}
+    
+.left__image
+{
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    width: 423px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.text-overlay h3 {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+}
+
+.text-overlay hr {
+    width: 150px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 5px 0;
+}
+
+.text-overlay .date {
+    color: blue;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.text-overlay p {
+    font-size: 10px;
+    margin: 5px 0 0;
+    color: white;
+}
+.image__b2
+{
+    width: 190px;
+    height: 300px;
+}
+
+
+.text-overlay__2 {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    width: 190px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.text-overlay__2 h3 {
+    font-size: 15px;
+    margin: 0;
+    color: white;
+    width: 180px;
+}
+
+.text-overlay__2 hr {
+    width: 100px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 5px 0;
+}
+
+.text-overlay__2 .date {
+    color: blue;
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.sub__Image
+{
+    display: flex;
+    padding:0 10px;
+    
+}
+.simage
+{
+    position:relative;
+    margin: 13px 15px;
+    
+   
+}
+.blog__Items
+{
+    display: flex;
+    justify-content: center;
+}
+
+.s__area
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-self: center;
+    
+    margin-top: 40px;
+    padding:30px 40px;
+    background-color: rgb(61, 61, 229);
+
+
+}
+.s__area h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.s__area p{
+    text-align: center;
+    font-size: 13px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.search_bar
+{
+    display: flex;
+    justify-content: center;
+    margin:20px 30px;
+    padding-left: 30px;
+}
+.button{
+    margin-left: 20px;
+    padding: 3px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(8, 8, 124, 0.829);
+    border: none;
+}
+.search_bar input 
+{
+    width: 350px;
+    border-radius: 5px;
+    padding-left: 20px;
+    color:black;
+    background-color:white;
+    border: none;
+}
+.rd__image
+{
+    position: relative;
+    width: 100%;
+    opacity: .6;
+    height: 250px;
+}
+
+.bottom__logo
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom__logo h3{
+    color: rgb(0, 0, 176);
+    font-size: 50px;
+}
+
+.bottom__logo h4{
+    color: white;
+    font-size: 30px;
+}
+
