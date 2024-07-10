@@ -128,6 +128,10 @@
     color: rgb(74, 74, 242);
 
 }
+
+.carousel__image:hover{
+    cursor: pointer;
+}
 .vendors
 {
     display: flex;
@@ -659,10 +663,7 @@ color: white;
     margin-left: 65px;
 }
 
-\.footer__Info
-{
-    background-color: red;
-}
+
 
 
 footer
