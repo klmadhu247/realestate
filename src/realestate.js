@@ -29,7 +29,9 @@ import Slider from "react-slick";
 import b1 from './assets/b1.jpg';
 import b2 from './assets/b2.jpg';
 import b3 from './assets/b3.jpg';
-import rd from './assets/rd.jpg'
+import rd from './assets/rd.jpg';
+import news1 from './assets/news1.PNG'
+import news2 from './assets/news2.PNG'
 
 
 
@@ -272,9 +274,97 @@ function RealEstate ()
 
         </div>
 
+        
         <img src={rd} className="rd__image"/>
 
+        <div className="bottom__header">
+
+
         <div className="bottom__logo"> <h3>wp</h3> <h4>Real Estae</h4></div>
+        <ul className="bottom__list">
+                    <li><a href="#"> HOME </a></li>
+                    <li><a href="#">ABOUT </a></li>
+                    <li><a href="#"> AGENTS </a></li>
+                    <li><a href="#"> PROPERTIES </a></li>
+                    <li><a href="#"> BLOG </a></li>
+                    <li><a href="#"> CONTACT </a></li>
+                </ul>
+
+                </div>
+
+                <ul className="extra__info">
+                 <li><a href="#">ABOUT </a></li>
+                <li><a href="#">INFORMATION </a></li>
+                <li><a href="#">RECENT NEWS </a></li>
+                <li><a href="#">GET IN TOUCH </a></li>
+                </ul>
+
+              <div className="abt__info">  
+                <ul className="about__list">
+                    <li><a href="#">ABOUT STUDIO</a></li>
+                    <li><a href="#">JOBS</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">SECURITY</a></li>
+                
+                
+                </ul>
+                <ul className="about__list">
+                    <li style={{marginLeft:"100px"}}><a href="#">CUSTOMER SERVICE</a></li>
+                    <li style={{marginLeft:"100px"}}><a href="#">LEGAL INFORMATION</a></li>
+                    <li style={{marginLeft:"100px"}}><a href="#">SUPPORT</a></li>
+                    <li style={{marginLeft:"100px"}}><a href="#">FAQ</a></li>
+                
+                
+                </ul>
+
+               <div style={{display:"flex",flexDirection:"column" , transform: "scale(0.8)",marginTop:"-35px"}}>
+                
+                <ul className="about__list">
+                    <li><a href="#" style={{display:"flex",alignItems:"center"}}><img src={news1}/><p style={{display:"flex",flexDirection:"column",marginTop:"20px"}}> <p style={{width:"245px"}}>New technology breakthrough 
+                        revolutionizes renewable energy solutions globally</p>
+                        <p>AUG 12 | 2023</p> </p>
+                        </a>
+                        </li>
+                    
+                    
+                
+                
+                </ul>
+
+                <ul className="about__list">
+                    <li><a href="#" style={{display:"flex",alignItems:"center",paddingTop:"-10px"}}><img src={news2}/><p style={{display:"flex",flexDirection:"column",marginTop:"20px"}}> <p style={{width:"245px"}}>New technology breakthrough 
+                        revolutionizes renewable energy solutions globally</p>
+                        <p>AUG 12 | 2023</p> </p>
+                        </a>
+                        </li>
+                    
+                
+                </ul>
+                </div>
+
+                <ul className="getinto"><li>San Fransisco, CA <br/>125, california, STP 2 Building</li>
+                <li>www.studiotheme.com</li>
+                <li>+123 45678 934</li></ul>
+
+                
+                </div>
+
+                <div className="footer__Info">
+                    <footer>
+                    <ul className="ftr__Icons">
+                <li><a href="#"> < FaGooglePlus className="ft__icon" />  </a></li>
+                <li><a href="#"> <FaPinterest  className="ft__icon"/>   </a></li>
+                <li><a href="#"> < AiFillTwitterCircle className="ft__icon" /> </a></li>
+                <li><a href="#"> < IoLogoFacebook className="ft__icon" />  </a></li>
+                
+                </ul>
+
+                <p style={{color:"white",fontSize:"10px",marginTop:"10px",paddingLeft:"10px"}}> <span> PRIVACY POLICY </span> <span>|</span> <span>TERMS & CONDITIONS</span> </p>
+
+                
+                    </footer>
+                </div>
+                
     
 
 

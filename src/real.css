@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .mail-icon
 {
     font-size: 25px;
@@ -27,23 +28,7 @@
     background-color: rgb(74, 74, 242);
 }
 
-.n1
-{
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-}
-.n2
-{
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 40px;
-    z-index: 1000;
-    width: 100%;
 
-}
 
 .navbar1
 {
@@ -558,6 +543,7 @@ color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
 
 }
 .bottom__logo h3{
@@ -568,5 +554,160 @@ color: white;
 .bottom__logo h4{
     color: white;
     font-size: 30px;
+    margin-left: 10px;
 }
 
+.bottom__list
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right:20px;
+    
+    
+
+}
+.bottom__list li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+.bottom__list li
+{
+    padding-top: 30px;
+}
+.bottom__list li a:hover
+{
+    text-shadow: 0 0 10px;
+    color: rgb(74, 74, 242);
+
+}
+.bottom__header
+{
+    position: absolute;
+    margin-top: -250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 88.5%;
+    height: 250px;
+    
+    
+}
+
+.extra__info
+{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    list-style-type: none;
+    margin-bottom:35px;
+    margin-right: 20px;
+
+}
+
+.extra__info li a
+{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font: larger;
+}
+
+
+.about__list
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.about__list li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    
+   
+}
+
+.about__list li
+{
+    
+    margin-left: 65px;
+    padding: 10px 0;
+}
+.abt__info
+{
+    display: flex;
+}
+.getinto 
+{
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 50px;
+
+}
+.getinto  li 
+{
+    font-size: 12px;
+    padding: 20px 10px;
+    margin-left: 65px;
+}
+
+\.footer__Info
+{
+    background-color: red;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.ftr__Icons
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 100px;
+    
+    
+}
+
+.ft__icon
+{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+.ftr__Icons li 
+{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+span
+{
+    padding-left: 10px;
+
+
+}
+span:hover
+{
+    cursor: pointer;
+}
